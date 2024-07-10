@@ -5,9 +5,9 @@ font-family: "Open Sans", sans-serif;
 }
 
 .cabecalho {
-height: 100px;
-padding: 20px;
 background-color: #12A529;
 display: flex;
 align-items: center;
+height: 100px;
+padding: 20px;
 }
