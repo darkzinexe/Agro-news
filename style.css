@@ -1,16 +1,7 @@
-.topo{
 .cabeçalho{
 background-color: #12A529;
 display: flex;
 justify-content: space-around;
 align-items: center;
 padding: 24px 0;
-}
-
-h1{
-    text-align: center;
-    font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-
 }
