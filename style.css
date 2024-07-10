@@ -7,6 +7,7 @@ font-family: "Open Sans", sans-serif;
 .cabecalho {
 background-color: #12A529;
 display: flex;
+justify-content: space-around;
 align-items: center;
 height: 100px;
 padding: 20px;
