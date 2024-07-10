@@ -1,7 +1,10 @@
 .topo{
-.logo{
-float: left;
-margin: 10px;
+.cabeçalho{
+background-color: #12A529;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 24px 0;
 }
 
 h1{
