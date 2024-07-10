@@ -1,3 +1,9 @@
+* {
+margin: 0;
+paddding: 0;
+font-familyq: "Open Sans", sans-serif;
+}
+
 .cabeçalho{
 background-color: #12A529;
 display: flex;
