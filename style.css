@@ -1,15 +1,13 @@
 * {
-margin: 0;
-paddding: 0;
-font-family: "Open Sans", sans-serif;
+    margin: 0;
+    paddding: 0;
+    font-family: "Open Sans", sans-serif;
 }
 
 .cabeçalho{
-height: 50px; 
-padding: 10px 20px; 
-margin: 0; 
-font-size: 16px; 
-display: flex;
-align-items: center; 
-background-color: #12A529;
+    height: 150px;
+    padding: 20px;
+    background-color: #12A529;
+    display: flex;
+    align-items: center;
 }
