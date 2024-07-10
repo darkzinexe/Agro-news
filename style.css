@@ -5,10 +5,10 @@
 }
 
 .cabeçalho {
-    background-color: #300301;
+    background-color: #12A529;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
-    height: 100px;
+    height: 75px;
 }
