@@ -4,7 +4,17 @@
   font-family: "Open Sans", sans-serif;
 }
 
-.cabeçalho {
+body{
+  display: flex;
+  background-color: #EDECEC
+}
+
+.container{
+  width: 1440px;
+  max-width: 1440px;
+  }
+
+.cabecalho {
   background-color: #12A529;
   display: flex;
   align-items: center;
@@ -12,6 +22,8 @@
   position: relative;
   padding: 18px;
   height:60px;
+  width: 1402px;
+  max-width: 1402px;
 }
 
 .menu{
@@ -20,17 +32,44 @@
   width: 80px;
   }
 
-.cabeçalho-logo{
+.cabecalho-logo{
   width: 120px;
   height: auto;
   }
 
-.cabeçalho-titulo{
+.cabecalho-titulo{
   font-size: 50px;
+  font-weight: 1000;
   }
 
-.pesquisa{
+.lupa{
   position: absolute;
-  right: 15px;
+  right: 2px;
   width: 80px;
   }
+
+.banner{
+  height: 276px;
+  width: 1440px;
+  }
+
+.noticia-titulo{
+  text-align: center;
+  font-size: 60px;
+  font-weight: 1000;
+  margin: 50px;
+  }
+
+.texto-noticia{
+  font-size: 22px;
+  text-align: left;
+  margin: 35px;
+  }
+
+.imagem-noticia{
+  display: block;
+  margin: 80px auto;
+  width: 65%;
+  max-width: 100%;
+  height: auto;
+}
