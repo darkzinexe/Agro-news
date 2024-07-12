@@ -13,10 +13,13 @@
   height: 50px;
 }
 
+.menu{
+  width: 120px;
+  }
+
 .cabeçalho-logo{
   width: 120px;
   height: auto;
-  margin-right: 20px;
   }
 
 .cabeçalho-titulo{
