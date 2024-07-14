@@ -12,6 +12,7 @@ body{
 .container{
   width: 1440px;
   max-width: 1440px;
+  text-align: center;
   }
 
 .cabecalho {
@@ -75,3 +76,43 @@ body{
   max-width: 100%;
   height: auto;
 }
+
+.texto-fonte{
+  font-size: 30px;
+  font-weight: 750;
+  text-align: center;
+  }
+
+a{
+  color: blue;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+}
+
+a:hover{
+  text-decoration: underline;
+  }
+
+.mais-noticias{
+  background-color: #226B00;
+  padding: 20px;
+  margin-top: 60px;
+  }
+
+.outras-noticias{
+  font-size: 40px;
+  font-weight: 850;
+  text-align: center;
+  color: white;
+  }
+
+.noticia-1{
+  display: flex;
+  position: relative;
+  }
+
+.texto-noticia-1{
+  color: white;
+  font-weight: 500;
+  }
+
