@@ -13,6 +13,9 @@ body{
   width: 1440px;
   max-width: 1440px;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+
   }
 
 .cabecalho {
@@ -22,49 +25,49 @@ body{
   justify-content: center;
   position: relative;
   padding: 18px;
-  height:60px;
-  width: 1402px;
-  max-width: 1402px;
+  height:30px;
+  width: 100%;
+  max-width: 100%;
 }
 
 .menu{
  position: absolute;
   left: 15px; 
-  width: 80px;
+  width: 60px;
   }
 
 .cabecalho-logo{
-  width: 120px;
+  width: 80px;
   height: auto;
   }
 
 .cabecalho-titulo{
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 1000;
   }
 
 .lupa{
   position: absolute;
   right: 2px;
-  width: 80px;
+  width: 60px;
   }
 
 .banner{
-  height: 276px;
-  width: 1440px;
+  width: 100%;
+  max-width: 100%;
   }
 
 .noticia-titulo{
-  text-align: center;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 1000;
-  margin: 50px;
+  margin: 0 auto;
+  margin-top: 25px;
   }
 
 .texto-noticia{
-  font-size: 22px;
+  font-size: 20px;
   text-align: left;
-  margin: 35px;
+  margin: 30px;
   font-family: "Nunito", sans-serif;
   font-weight: 500;
   }
@@ -78,15 +81,18 @@ body{
 }
 
 .texto-fonte{
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 750;
+  font-family: Nunito, sans-serif;
   text-align: center;
+  margin: 0 auto;
   }
 
 a{
   color: blue;
   text-decoration: none;
   font-family: "Nunito", sans-serif;
+  margin: 0 auto;
 }
 
 a:hover{
@@ -104,6 +110,7 @@ a:hover{
   font-weight: 850;
   text-align: center;
   color: white;
+  font-family: Nunito, sans-serif;
   }
 
 .noticia-1{
@@ -111,8 +118,106 @@ a:hover{
   position: relative;
   }
 
+.imagem-outra-noticia-1{
+  margin-left: 30px;
+  width: 20%;
+  }
+.texto-outra-noticia-1{
+ margin-left: 20px;
+ color: white;
+}
+
+.titulo-noticia-1{
+  font-weight: 700;
+  font-family: Nunito, sans-serif;
+  font-size: 30px;
+  text-align: left;
+  }
+
+.trecho-noticia-1{
+  font-size: 20px;
+  text-align: left;
+  font-family: Nunito, sans-serif;
+}
+
+.noticia-2{
+  display: flex;
+  position: relative;
+  }
+
+.imagem-outra-noticia-2{
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 20%;
+  }
+
+.texto-outra-noticia-2{
+ margin-left: 20px;
+ color: white;
+}
+
+.titulo-noticia-2 {
+  font-weight: 700;
+  font-size: 30px;
+  font-family: Nunito, sans-serif;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.trecho-noticia-2{
+  font-size: 20px;
+  text-align: left;
+  font-family: Nunito, sans-serif;
+}
+
+.noticia-3{
+  display: flex;
+  position: relative;
+  }
+
+.imagem-outra-noticia-3{
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 20%;
+  
 .titulo-noticia-1{
   color: white;
   font-weight: 500;
   }
 
+.texto-outra-noticia-3{
+ margin-left: 20px;
+ color: white;
+}
+
+.titulo-noticia-3 {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 20px;
+  font-family: Nunito, sans-serif;
+}
+
+.trecho-noticia-3{
+  font-size: 20px;
+  text-align: left;
+  font-family: Nunito, sans-serif;
+}
+
+.rodapé{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 18px;
+  height:30px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.rodape-texto{
+  color: white;
+  font_size: 30px;
+  font-weight: 800;
+}
