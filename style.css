@@ -10,8 +10,6 @@ body{
 }
 
 .container{
-  width: 1440px;
-  max-width: 1440px;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -32,9 +30,17 @@ body{
 
 .menu{
  position: absolute;
-  left: 15px; 
+  left: 15px;
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.botao-menu{
   width: 60px;
-  }
+  height: auto;
+}
 
 .cabecalho-logo{
   width: 80px;
@@ -46,11 +52,18 @@ body{
   font-weight: 1000;
   }
 
-.lupa{
+.pesquisa{
   position: absolute;
   right: 2px;
-  width: 60px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
   }
+
+.lupa{
+  width: 60px;
+  height: auto;
+}
 
 .banner{
   width: 100%;
@@ -86,13 +99,12 @@ body{
   font-family: Nunito, sans-serif;
   text-align: center;
   margin: 0 auto;
+  color: blue;
   }
 
 a{
-  color: blue;
+  color: black;
   text-decoration: none;
-  font-family: "Nunito", sans-serif;
-  margin: 0 auto;
 }
 
 a:hover{
@@ -116,6 +128,8 @@ a:hover{
 .noticia-1{
   display: flex;
   position: relative;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
   }
 
 .imagem-outra-noticia-1{
@@ -143,6 +157,8 @@ a:hover{
 .noticia-2{
   display: flex;
   position: relative;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
   }
 
 .imagem-outra-noticia-2{
@@ -216,4 +232,105 @@ a:hover{
   color: white;
   font-size: 30px;
   font-weight: 800;
+}
+
+.link-sobre-nos{
+  text-decoration: underline;
+  color: white;
+}
+
+.noticia-1-home{
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+
+.imagem-noticia-1-home{
+  width: 75%;
+}
+
+.titulo-noticia-1-home{
+  font-size: 35px;
+  font-weight: 800;
+  font-family: Nunito, sans-serif;
+}
+
+.trecho-noticia-1-home{
+  font-size: 24px;
+  font-family: Nunito, sans-serif;
+}
+
+.noticia-2-home{
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+
+.imagem-noticia-2-home{
+  width: 75%;
+}
+
+.titulo-noticia-2-home{
+  font-size: 35px;
+  font-weight: 800;
+  font-family: Nunito, sans-serif;
+}
+
+.trecho-noticia-2-home{
+  font-size: 24px;
+  font-family: Nunito, sans-serif;
+}
+
+.noticia-3-home{
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+
+.imagem-noticia-3-home{
+  width: 75%;
+}
+
+.titulo-noticia-3-home{
+  font-size: 35px;
+  font-weight: 800;
+  font-family: Nunito, sans-serif;
+}
+
+.trecho-noticia-3-home{
+  font-size: 24px;
+  font-family: Nunito, sans-serif;
+}
+
+.noticia-4-home{
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+
+.imagem-noticia-4-home{
+  width: 75%;
+}
+
+.titulo-noticia-4-home{
+  font-size: 35px;
+  font-weight: 800;
+  font-family: Nunito, sans-serif;
+}
+
+.trecho-noticia-4-home{
+  font-size: 24px;
+  font-family: Nunito, sans-serif;
 }
