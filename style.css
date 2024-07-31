@@ -52,19 +52,6 @@ body{
   font-weight: 1000;
   }
 
-.pesquisa{
-  position: absolute;
-  right: 2px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  }
-
-.lupa{
-  width: 60px;
-  height: auto;
-}
-
 .banner{
   width: 100%;
   max-width: 100%;
