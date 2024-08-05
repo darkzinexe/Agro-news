@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <nav>
       <ul>
         <li><a href="index.html"></a></li>
@@ -23,15 +24,22 @@
   <body>
     <div class="container">
       <header class="cabecalho">
+        <div class="dropdown">
         <button class="menu">
           <img class="botao-menu" src="botao_menu.png" />
         </button>
+          <div class="dropdown-content">
+            <a href="about.html"><i class="bi bi-info-circle"></i> Sobre o site</a>
+            </div>
+          </div>
         <img class="cabecalho-logo" src="trator_logo.png" alt="trator" />
         <h1 class="cabecalho-titulo">Agro News</h1>
       </header>
       <section class="noticia-1-home">
-        <a href="noticia-1.html">
+        <a class="link-outras-noticias" href="noticia-1.html">
+          <div class="estilo-home">          
           <img class="imagem-noticia-1-home" src="imagem_noticia_1.png" />
+            <div class="home-text-1">
           <h1 class="titulo-noticia-1-home">
             Condições climáticas causam impacto na colheita do tomate
           </h1>
@@ -40,11 +48,15 @@
             desfavoráveis causaram sérios danos à colheita de tomate na região
             de Caxias do Sul.
           </p>
+            </div>
+            </div>
         </a>
       </section>
       <section class="noticia-2-home">
-        <a href="noticia-2.html">
+        <a class="link-outras-noticias" href="noticia-2.html">
+          <div class="estilo-home">
           <img class="imagem-noticia-2-home" src="fertilizante.png" />
+            <div class="home-text">
           <h1 class="titulo-noticia-2-home">
             Brasil e Bolívia firmam acordos para ampliar oferta de fertilizantes
           </h1>
@@ -54,11 +66,15 @@
             fertilizantes no Brasil, com o objetivo de elevar a produtividade do
             agronegócio brasileiro e aumentar a competitividade do setor.
           </p>
+              </div>
+            </div>
         </a>
       </section>
       <section class="noticia-3-home">
-        <a href="noticia-3.html">
+        <a class="link-outras-noticias" href="noticia-3.html">
+          <div class="estilo-home">
           <img class="imagem-noticia-3-home" src="fitossanitaria_2.png" />
+            <div class="home-text">
           <h1 class="titulo-noticia-3-home">
             Emergência fitossanitária para cítricos no PR é prorrogada
           </h1>
@@ -67,11 +83,15 @@
             estado por mais 180 dias como medida de combate ao greening, uma das
             principais pragas que afetam os citros no mundo.
           </p>
+          </div>
+        </div>
         </a>
       </section>
       <section class="noticia-4-home">
-        <a href="noticia-4.html">
+        <a class="link-outras-noticias" href="noticia-4.html">
+          <div class="estilo-home">
           <img class="imagem-noticia-4-home" src="invasão.png" />
+            <div class="home-text">
           <h1 class="titulo-noticia-4-home">
             Nova invasão de propriedade rural no Oeste do Paraná
           </h1>
@@ -80,15 +100,18 @@
             desta segunda-feira (15) para atender uma ocorrência de invasão de
             propriedade privada.
           </p>
+          </div>
+        </div>
         </a>
       </section>
       <footer class="rodapé">
         <li>
           <a class="link-sobre-nos" href="about.html"
-            ><h2 class="rodape-texto">Sobre Nós</h2></a
+            ><h2 class="rodape-texto">Sobre o site</h2></a
           >
         </li>
       </footer>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>
