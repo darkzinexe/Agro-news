@@ -109,6 +109,7 @@ body {
   width: 65%;
   max-width: 100%;
   height: auto;
+  border-radius: 25px;
 }
 
 .texto-fonte {
@@ -153,6 +154,7 @@ a:hover {
 .imagem-outra-noticia-1 {
   margin-left: 30px;
   width: 20%;
+  border-radius: 15px;
 }
 .texto-outra-noticia-1 {
   margin-left: 20px;
@@ -177,6 +179,7 @@ a:hover {
   margin-left: 30px;
   margin-top: 20px;
   width: 20%;
+  border-radius: 15px;
 }
 
 .texto-outra-noticia-2 {
@@ -201,6 +204,7 @@ a:hover {
   margin-left: 30px;
   margin-top: 20px;
   width: 20%;
+  border-radius: 15px;
 }
 
 .texto-outra-noticia-3 {
@@ -250,6 +254,8 @@ a:hover {
 
 .imagem-noticia-1-home {
   width: 30%;
+  margin-left: 20px;
+  border-radius: 15px;
 }
 
 .titulo-noticia-1-home {
@@ -276,6 +282,8 @@ a:hover {
 
 .imagem-noticia-2-home {
   width: 30%;
+  margin-left: 20px;
+  border-radius: 15px;
 }
 
 .titulo-noticia-2-home {
@@ -300,6 +308,8 @@ a:hover {
 
 .imagem-noticia-3-home {
   width: 30%;
+  margin-left: 20px;
+  border-radius: 15px;
 }
 
 .titulo-noticia-3-home {
@@ -324,6 +334,8 @@ a:hover {
 
 .imagem-noticia-4-home {
   width: 30%;
+  margin-left: 20px;
+  border-radius: 15px;
 }
 
 .titulo-noticia-4-home {
@@ -340,6 +352,10 @@ a:hover {
 .estilo-home{
   display: flex;
   position: relative;
+}
+
+.home-text{
+  margin: auto 15px;
 }
 
 .h2-about{
